@@ -1,0 +1,2506 @@
+# 0 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/network.cpp"
+# 1 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/build_out/suas_app_freertos_watchdog//"
+# 0 "<built-in>"
+#define __STDC__ 1
+# 0 "<built-in>"
+#define __cplusplus 202302L
+# 0 "<built-in>"
+#define __STDC_UTF_16__ 1
+# 0 "<built-in>"
+#define __STDC_UTF_32__ 1
+# 0 "<built-in>"
+#define __STDC_HOSTED__ 0
+# 0 "<built-in>"
+#define __STDC_EMBED_NOT_FOUND__ 0
+# 0 "<built-in>"
+#define __STDC_EMBED_FOUND__ 1
+# 0 "<built-in>"
+#define __STDC_EMBED_EMPTY__ 2
+# 0 "<built-in>"
+#define __GNUC__ 15
+# 0 "<built-in>"
+#define __GNUC_MINOR__ 1
+# 0 "<built-in>"
+#define __GNUC_PATCHLEVEL__ 0
+# 0 "<built-in>"
+#define __VERSION__ "15.1.0"
+# 0 "<built-in>"
+#define __ATOMIC_RELAXED 0
+# 0 "<built-in>"
+#define __ATOMIC_SEQ_CST 5
+# 0 "<built-in>"
+#define __ATOMIC_ACQUIRE 2
+# 0 "<built-in>"
+#define __ATOMIC_RELEASE 3
+# 0 "<built-in>"
+#define __ATOMIC_ACQ_REL 4
+# 0 "<built-in>"
+#define __ATOMIC_CONSUME 1
+# 0 "<built-in>"
+#define __OPTIMIZE_SIZE__ 1
+# 0 "<built-in>"
+#define __OPTIMIZE__ 1
+# 0 "<built-in>"
+#define __FINITE_MATH_ONLY__ 0
+# 0 "<built-in>"
+#define __SIZEOF_INT__ 4
+# 0 "<built-in>"
+#define __SIZEOF_LONG__ 4
+# 0 "<built-in>"
+#define __SIZEOF_LONG_LONG__ 8
+# 0 "<built-in>"
+#define __SIZEOF_SHORT__ 2
+# 0 "<built-in>"
+#define __SIZEOF_FLOAT__ 4
+# 0 "<built-in>"
+#define __SIZEOF_DOUBLE__ 8
+# 0 "<built-in>"
+#define __SIZEOF_LONG_DOUBLE__ 16
+# 0 "<built-in>"
+#define __SIZEOF_SIZE_T__ 4
+# 0 "<built-in>"
+#define __CHAR_BIT__ 8
+# 0 "<built-in>"
+#define __BIGGEST_ALIGNMENT__ 16
+# 0 "<built-in>"
+#define __ORDER_LITTLE_ENDIAN__ 1234
+# 0 "<built-in>"
+#define __ORDER_BIG_ENDIAN__ 4321
+# 0 "<built-in>"
+#define __ORDER_PDP_ENDIAN__ 3412
+# 0 "<built-in>"
+#define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+# 0 "<built-in>"
+#define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
+# 0 "<built-in>"
+#define __SIZEOF_POINTER__ 4
+# 0 "<built-in>"
+#define __GNUC_EXECUTION_CHARSET_NAME "UTF-8"
+# 0 "<built-in>"
+#define __GNUC_WIDE_EXECUTION_CHARSET_NAME "UTF-32LE"
+# 0 "<built-in>"
+#define __GNUG__ 15
+# 0 "<built-in>"
+#define __SIZE_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __PTRDIFF_TYPE__ int
+# 0 "<built-in>"
+#define __WCHAR_TYPE__ int
+# 0 "<built-in>"
+#define __WINT_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __INTMAX_TYPE__ long long int
+# 0 "<built-in>"
+#define __UINTMAX_TYPE__ long long unsigned int
+# 0 "<built-in>"
+#define __CHAR8_TYPE__ unsigned char
+# 0 "<built-in>"
+#define __CHAR16_TYPE__ short unsigned int
+# 0 "<built-in>"
+#define __CHAR32_TYPE__ long unsigned int
+# 0 "<built-in>"
+#define __SIG_ATOMIC_TYPE__ int
+# 0 "<built-in>"
+#define __INT8_TYPE__ signed char
+# 0 "<built-in>"
+#define __INT16_TYPE__ short int
+# 0 "<built-in>"
+#define __INT32_TYPE__ long int
+# 0 "<built-in>"
+#define __INT64_TYPE__ long long int
+# 0 "<built-in>"
+#define __UINT8_TYPE__ unsigned char
+# 0 "<built-in>"
+#define __UINT16_TYPE__ short unsigned int
+# 0 "<built-in>"
+#define __UINT32_TYPE__ long unsigned int
+# 0 "<built-in>"
+#define __UINT64_TYPE__ long long unsigned int
+# 0 "<built-in>"
+#define __INT_LEAST8_TYPE__ signed char
+# 0 "<built-in>"
+#define __INT_LEAST16_TYPE__ short int
+# 0 "<built-in>"
+#define __INT_LEAST32_TYPE__ long int
+# 0 "<built-in>"
+#define __INT_LEAST64_TYPE__ long long int
+# 0 "<built-in>"
+#define __UINT_LEAST8_TYPE__ unsigned char
+# 0 "<built-in>"
+#define __UINT_LEAST16_TYPE__ short unsigned int
+# 0 "<built-in>"
+#define __UINT_LEAST32_TYPE__ long unsigned int
+# 0 "<built-in>"
+#define __UINT_LEAST64_TYPE__ long long unsigned int
+# 0 "<built-in>"
+#define __INT_FAST8_TYPE__ int
+# 0 "<built-in>"
+#define __INT_FAST16_TYPE__ int
+# 0 "<built-in>"
+#define __INT_FAST32_TYPE__ int
+# 0 "<built-in>"
+#define __INT_FAST64_TYPE__ long long int
+# 0 "<built-in>"
+#define __UINT_FAST8_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __UINT_FAST16_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __UINT_FAST32_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __UINT_FAST64_TYPE__ long long unsigned int
+# 0 "<built-in>"
+#define __INTPTR_TYPE__ int
+# 0 "<built-in>"
+#define __UINTPTR_TYPE__ unsigned int
+# 0 "<built-in>"
+#define __GXX_WEAK__ 1
+# 0 "<built-in>"
+#define __DEPRECATED 1
+# 0 "<built-in>"
+#define __GXX_EXPERIMENTAL_CXX0X__ 1
+# 0 "<built-in>"
+#define __GXX_CONSTEXPR_ASM__ 1
+# 0 "<built-in>"
+#define __cpp_binary_literals 201304L
+# 0 "<built-in>"
+#define __cpp_hex_float 201603L
+# 0 "<built-in>"
+#define __cpp_runtime_arrays 198712L
+# 0 "<built-in>"
+#define __cpp_raw_strings 200710L
+# 0 "<built-in>"
+#define __cpp_unicode_literals 200710L
+# 0 "<built-in>"
+#define __cpp_user_defined_literals 200809L
+# 0 "<built-in>"
+#define __cpp_lambdas 200907L
+# 0 "<built-in>"
+#define __cpp_decltype 200707L
+# 0 "<built-in>"
+#define __cpp_attributes 200809L
+# 0 "<built-in>"
+#define __cpp_rvalue_reference 200610L
+# 0 "<built-in>"
+#define __cpp_rvalue_references 200610L
+# 0 "<built-in>"
+#define __cpp_variadic_templates 200704L
+# 0 "<built-in>"
+#define __cpp_initializer_lists 200806L
+# 0 "<built-in>"
+#define __cpp_delegating_constructors 200604L
+# 0 "<built-in>"
+#define __cpp_nsdmi 200809L
+# 0 "<built-in>"
+#define __cpp_inheriting_constructors 201511L
+# 0 "<built-in>"
+#define __cpp_ref_qualifiers 200710L
+# 0 "<built-in>"
+#define __cpp_alias_templates 200704L
+# 0 "<built-in>"
+#define __cpp_return_type_deduction 201304L
+# 0 "<built-in>"
+#define __cpp_decltype_auto 201304L
+# 0 "<built-in>"
+#define __cpp_aggregate_nsdmi 201304L
+# 0 "<built-in>"
+#define __cpp_variable_templates 201304L
+# 0 "<built-in>"
+#define __cpp_digit_separators 201309L
+# 0 "<built-in>"
+#define __cpp_unicode_characters 201411L
+# 0 "<built-in>"
+#define __cpp_static_assert 201411L
+# 0 "<built-in>"
+#define __cpp_namespace_attributes 201411L
+# 0 "<built-in>"
+#define __cpp_enumerator_attributes 201411L
+# 0 "<built-in>"
+#define __cpp_nested_namespace_definitions 201411L
+# 0 "<built-in>"
+#define __cpp_fold_expressions 201603L
+# 0 "<built-in>"
+#define __cpp_range_based_for 202211L
+# 0 "<built-in>"
+#define __cpp_if_constexpr 201606L
+# 0 "<built-in>"
+#define __cpp_capture_star_this 201603L
+# 0 "<built-in>"
+#define __cpp_inline_variables 201606L
+# 0 "<built-in>"
+#define __cpp_aggregate_bases 201603L
+# 0 "<built-in>"
+#define __cpp_noexcept_function_type 201510L
+# 0 "<built-in>"
+#define __cpp_template_auto 201606L
+# 0 "<built-in>"
+#define __cpp_structured_bindings 201606L
+# 0 "<built-in>"
+#define __cpp_variadic_using 201611L
+# 0 "<built-in>"
+#define __cpp_guaranteed_copy_elision 201606L
+# 0 "<built-in>"
+#define __cpp_nontype_template_parameter_auto 201606L
+# 0 "<built-in>"
+#define __cpp_init_captures 201803L
+# 0 "<built-in>"
+#define __cpp_generic_lambdas 201707L
+# 0 "<built-in>"
+#define __cpp_designated_initializers 201707L
+# 0 "<built-in>"
+#define __cpp_constexpr_in_decltype 201711L
+# 0 "<built-in>"
+#define __cpp_conditional_explicit 201806L
+# 0 "<built-in>"
+#define __cpp_consteval 202211L
+# 0 "<built-in>"
+#define __cpp_constinit 201907L
+# 0 "<built-in>"
+#define __cpp_deduction_guides 201907L
+# 0 "<built-in>"
+#define __cpp_nontype_template_args 201911L
+# 0 "<built-in>"
+#define __cpp_nontype_template_parameter_class 201806L
+# 0 "<built-in>"
+#define __cpp_impl_destroying_delete 201806L
+# 0 "<built-in>"
+#define __cpp_constexpr_dynamic_alloc 201907L
+# 0 "<built-in>"
+#define __cpp_impl_three_way_comparison 201907L
+# 0 "<built-in>"
+#define __cpp_aggregate_paren_init 201902L
+# 0 "<built-in>"
+#define __cpp_using_enum 201907L
+# 0 "<built-in>"
+#define __cpp_size_t_suffix 202011L
+# 0 "<built-in>"
+#define __cpp_if_consteval 202106L
+# 0 "<built-in>"
+#define __cpp_auto_cast 202110L
+# 0 "<built-in>"
+#define __cpp_constexpr 202211L
+# 0 "<built-in>"
+#define __cpp_multidimensional_subscript 202211L
+# 0 "<built-in>"
+#define __cpp_named_character_escapes 202207L
+# 0 "<built-in>"
+#define __cpp_static_call_operator 202207L
+# 0 "<built-in>"
+#define __cpp_implicit_move 202207L
+# 0 "<built-in>"
+#define __cpp_explicit_this_parameter 202110L
+# 0 "<built-in>"
+#define __cpp_concepts 202002L
+# 0 "<built-in>"
+#define __cpp_impl_coroutine 201902L
+# 0 "<built-in>"
+#define __cpp_sized_deallocation 201309L
+# 0 "<built-in>"
+#define __cpp_aligned_new 201606L
+# 0 "<built-in>"
+#define __STDCPP_DEFAULT_NEW_ALIGNMENT__ 16
+# 0 "<built-in>"
+#define __cpp_template_template_args 201611L
+# 0 "<built-in>"
+#define __cpp_threadsafe_static_init 200806L
+# 0 "<built-in>"
+#define __cpp_char8_t 202207L
+# 0 "<built-in>"
+#define __GXX_ABI_VERSION 1020
+# 0 "<built-in>"
+#define __SCHAR_MAX__ 0x7f
+# 0 "<built-in>"
+#define __SHRT_MAX__ 0x7fff
+# 0 "<built-in>"
+#define __INT_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __LONG_MAX__ 0x7fffffffL
+# 0 "<built-in>"
+#define __LONG_LONG_MAX__ 0x7fffffffffffffffLL
+# 0 "<built-in>"
+#define __WCHAR_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __WCHAR_MIN__ (-__WCHAR_MAX__ - 1)
+# 0 "<built-in>"
+#define __WINT_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __WINT_MIN__ 0U
+# 0 "<built-in>"
+#define __PTRDIFF_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __SIZE_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __SCHAR_WIDTH__ 8
+# 0 "<built-in>"
+#define __SHRT_WIDTH__ 16
+# 0 "<built-in>"
+#define __INT_WIDTH__ 32
+# 0 "<built-in>"
+#define __LONG_WIDTH__ 32
+# 0 "<built-in>"
+#define __LONG_LONG_WIDTH__ 64
+# 0 "<built-in>"
+#define __WCHAR_WIDTH__ 32
+# 0 "<built-in>"
+#define __WINT_WIDTH__ 32
+# 0 "<built-in>"
+#define __PTRDIFF_WIDTH__ 32
+# 0 "<built-in>"
+#define __SIZE_WIDTH__ 32
+# 0 "<built-in>"
+#define __INTMAX_MAX__ 0x7fffffffffffffffLL
+# 0 "<built-in>"
+#define __INTMAX_C(c) c ## LL
+# 0 "<built-in>"
+#define __UINTMAX_MAX__ 0xffffffffffffffffULL
+# 0 "<built-in>"
+#define __UINTMAX_C(c) c ## ULL
+# 0 "<built-in>"
+#define __INTMAX_WIDTH__ 64
+# 0 "<built-in>"
+#define __SIG_ATOMIC_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)
+# 0 "<built-in>"
+#define __SIG_ATOMIC_WIDTH__ 32
+# 0 "<built-in>"
+#define __INT8_MAX__ 0x7f
+# 0 "<built-in>"
+#define __INT16_MAX__ 0x7fff
+# 0 "<built-in>"
+#define __INT32_MAX__ 0x7fffffffL
+# 0 "<built-in>"
+#define __INT64_MAX__ 0x7fffffffffffffffLL
+# 0 "<built-in>"
+#define __UINT8_MAX__ 0xff
+# 0 "<built-in>"
+#define __UINT16_MAX__ 0xffff
+# 0 "<built-in>"
+#define __UINT32_MAX__ 0xffffffffUL
+# 0 "<built-in>"
+#define __UINT64_MAX__ 0xffffffffffffffffULL
+# 0 "<built-in>"
+#define __INT_LEAST8_MAX__ 0x7f
+# 0 "<built-in>"
+#define __INT8_C(c) c
+# 0 "<built-in>"
+#define __INT_LEAST8_WIDTH__ 8
+# 0 "<built-in>"
+#define __INT_LEAST16_MAX__ 0x7fff
+# 0 "<built-in>"
+#define __INT16_C(c) c
+# 0 "<built-in>"
+#define __INT_LEAST16_WIDTH__ 16
+# 0 "<built-in>"
+#define __INT_LEAST32_MAX__ 0x7fffffffL
+# 0 "<built-in>"
+#define __INT32_C(c) c ## L
+# 0 "<built-in>"
+#define __INT_LEAST32_WIDTH__ 32
+# 0 "<built-in>"
+#define __INT_LEAST64_MAX__ 0x7fffffffffffffffLL
+# 0 "<built-in>"
+#define __INT64_C(c) c ## LL
+# 0 "<built-in>"
+#define __INT_LEAST64_WIDTH__ 64
+# 0 "<built-in>"
+#define __UINT_LEAST8_MAX__ 0xff
+# 0 "<built-in>"
+#define __UINT8_C(c) c
+# 0 "<built-in>"
+#define __UINT_LEAST16_MAX__ 0xffff
+# 0 "<built-in>"
+#define __UINT16_C(c) c
+# 0 "<built-in>"
+#define __UINT_LEAST32_MAX__ 0xffffffffUL
+# 0 "<built-in>"
+#define __UINT32_C(c) c ## UL
+# 0 "<built-in>"
+#define __UINT_LEAST64_MAX__ 0xffffffffffffffffULL
+# 0 "<built-in>"
+#define __UINT64_C(c) c ## ULL
+# 0 "<built-in>"
+#define __INT_FAST8_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __INT_FAST8_WIDTH__ 32
+# 0 "<built-in>"
+#define __INT_FAST16_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __INT_FAST16_WIDTH__ 32
+# 0 "<built-in>"
+#define __INT_FAST32_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __INT_FAST32_WIDTH__ 32
+# 0 "<built-in>"
+#define __INT_FAST64_MAX__ 0x7fffffffffffffffLL
+# 0 "<built-in>"
+#define __INT_FAST64_WIDTH__ 64
+# 0 "<built-in>"
+#define __UINT_FAST8_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __UINT_FAST16_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __UINT_FAST32_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __UINT_FAST64_MAX__ 0xffffffffffffffffULL
+# 0 "<built-in>"
+#define __INTPTR_MAX__ 0x7fffffff
+# 0 "<built-in>"
+#define __INTPTR_WIDTH__ 32
+# 0 "<built-in>"
+#define __UINTPTR_MAX__ 0xffffffffU
+# 0 "<built-in>"
+#define __GCC_IEC_559 0
+# 0 "<built-in>"
+#define __GCC_IEC_559_COMPLEX 0
+# 0 "<built-in>"
+#define __FLT_EVAL_METHOD__ 0
+# 0 "<built-in>"
+#define __FLT_EVAL_METHOD_TS_18661_3__ 0
+# 0 "<built-in>"
+#define __DEC_EVAL_METHOD__ 2
+# 0 "<built-in>"
+#define __FLT_RADIX__ 2
+# 0 "<built-in>"
+#define __FLT_MANT_DIG__ 24
+# 0 "<built-in>"
+#define __FLT_DIG__ 6
+# 0 "<built-in>"
+#define __FLT_MIN_EXP__ (-125)
+# 0 "<built-in>"
+#define __FLT_MIN_10_EXP__ (-37)
+# 0 "<built-in>"
+#define __FLT_MAX_EXP__ 128
+# 0 "<built-in>"
+#define __FLT_MAX_10_EXP__ 38
+# 0 "<built-in>"
+#define __FLT_DECIMAL_DIG__ 9
+# 0 "<built-in>"
+#define __FLT_MAX__ 3.40282346638528859811704183484516925e+38F
+# 0 "<built-in>"
+#define __FLT_NORM_MAX__ 3.40282346638528859811704183484516925e+38F
+# 0 "<built-in>"
+#define __FLT_MIN__ 1.17549435082228750796873653722224568e-38F
+# 0 "<built-in>"
+#define __FLT_EPSILON__ 1.19209289550781250000000000000000000e-7F
+# 0 "<built-in>"
+#define __FLT_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F
+# 0 "<built-in>"
+#define __FLT_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FP_FAST_FMAF 1
+# 0 "<built-in>"
+#define __FLT_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __DBL_MANT_DIG__ 53
+# 0 "<built-in>"
+#define __DBL_DIG__ 15
+# 0 "<built-in>"
+#define __DBL_MIN_EXP__ (-1021)
+# 0 "<built-in>"
+#define __DBL_MIN_10_EXP__ (-307)
+# 0 "<built-in>"
+#define __DBL_MAX_EXP__ 1024
+# 0 "<built-in>"
+#define __DBL_MAX_10_EXP__ 308
+# 0 "<built-in>"
+#define __DBL_DECIMAL_DIG__ 17
+# 0 "<built-in>"
+#define __DBL_MAX__ double(1.79769313486231570814527423731704357e+308L)
+# 0 "<built-in>"
+#define __DBL_NORM_MAX__ double(1.79769313486231570814527423731704357e+308L)
+# 0 "<built-in>"
+#define __DBL_MIN__ double(2.22507385850720138309023271733240406e-308L)
+# 0 "<built-in>"
+#define __DBL_EPSILON__ double(2.22044604925031308084726333618164062e-16L)
+# 0 "<built-in>"
+#define __DBL_DENORM_MIN__ double(4.94065645841246544176568792868221372e-324L)
+# 0 "<built-in>"
+#define __DBL_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __DBL_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __DBL_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __DBL_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __LDBL_MANT_DIG__ 113
+# 0 "<built-in>"
+#define __LDBL_DIG__ 33
+# 0 "<built-in>"
+#define __LDBL_MIN_EXP__ (-16381)
+# 0 "<built-in>"
+#define __LDBL_MIN_10_EXP__ (-4931)
+# 0 "<built-in>"
+#define __LDBL_MAX_EXP__ 16384
+# 0 "<built-in>"
+#define __LDBL_MAX_10_EXP__ 4932
+# 0 "<built-in>"
+#define __DECIMAL_DIG__ 36
+# 0 "<built-in>"
+#define __LDBL_DECIMAL_DIG__ 36
+# 0 "<built-in>"
+#define __LDBL_MAX__ 1.18973149535723176508575932662800702e+4932L
+# 0 "<built-in>"
+#define __LDBL_NORM_MAX__ 1.18973149535723176508575932662800702e+4932L
+# 0 "<built-in>"
+#define __LDBL_MIN__ 3.36210314311209350626267781732175260e-4932L
+# 0 "<built-in>"
+#define __LDBL_EPSILON__ 1.92592994438723585305597794258492732e-34L
+# 0 "<built-in>"
+#define __LDBL_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966L
+# 0 "<built-in>"
+#define __LDBL_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __LDBL_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __LDBL_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __LDBL_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __STDCPP_FLOAT16_T__ 1
+# 0 "<built-in>"
+#define __FLT16_MANT_DIG__ 11
+# 0 "<built-in>"
+#define __FLT16_DIG__ 3
+# 0 "<built-in>"
+#define __FLT16_MIN_EXP__ (-13)
+# 0 "<built-in>"
+#define __FLT16_MIN_10_EXP__ (-4)
+# 0 "<built-in>"
+#define __FLT16_MAX_EXP__ 16
+# 0 "<built-in>"
+#define __FLT16_MAX_10_EXP__ 4
+# 0 "<built-in>"
+#define __FLT16_DECIMAL_DIG__ 5
+# 0 "<built-in>"
+#define __FLT16_MAX__ 6.55040000000000000000000000000000000e+4F16
+# 0 "<built-in>"
+#define __FLT16_NORM_MAX__ 6.55040000000000000000000000000000000e+4F16
+# 0 "<built-in>"
+#define __FLT16_MIN__ 6.10351562500000000000000000000000000e-5F16
+# 0 "<built-in>"
+#define __FLT16_EPSILON__ 9.76562500000000000000000000000000000e-4F16
+# 0 "<built-in>"
+#define __FLT16_DENORM_MIN__ 5.96046447753906250000000000000000000e-8F16
+# 0 "<built-in>"
+#define __FLT16_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT16_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT16_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT16_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __STDCPP_FLOAT32_T__ 1
+# 0 "<built-in>"
+#define __FLT32_MANT_DIG__ 24
+# 0 "<built-in>"
+#define __FLT32_DIG__ 6
+# 0 "<built-in>"
+#define __FLT32_MIN_EXP__ (-125)
+# 0 "<built-in>"
+#define __FLT32_MIN_10_EXP__ (-37)
+# 0 "<built-in>"
+#define __FLT32_MAX_EXP__ 128
+# 0 "<built-in>"
+#define __FLT32_MAX_10_EXP__ 38
+# 0 "<built-in>"
+#define __FLT32_DECIMAL_DIG__ 9
+# 0 "<built-in>"
+#define __FLT32_MAX__ 3.40282346638528859811704183484516925e+38F32
+# 0 "<built-in>"
+#define __FLT32_NORM_MAX__ 3.40282346638528859811704183484516925e+38F32
+# 0 "<built-in>"
+#define __FLT32_MIN__ 1.17549435082228750796873653722224568e-38F32
+# 0 "<built-in>"
+#define __FLT32_EPSILON__ 1.19209289550781250000000000000000000e-7F32
+# 0 "<built-in>"
+#define __FLT32_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F32
+# 0 "<built-in>"
+#define __FLT32_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT32_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT32_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FP_FAST_FMAF32 1
+# 0 "<built-in>"
+#define __FLT32_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __STDCPP_FLOAT64_T__ 1
+# 0 "<built-in>"
+#define __FLT64_MANT_DIG__ 53
+# 0 "<built-in>"
+#define __FLT64_DIG__ 15
+# 0 "<built-in>"
+#define __FLT64_MIN_EXP__ (-1021)
+# 0 "<built-in>"
+#define __FLT64_MIN_10_EXP__ (-307)
+# 0 "<built-in>"
+#define __FLT64_MAX_EXP__ 1024
+# 0 "<built-in>"
+#define __FLT64_MAX_10_EXP__ 308
+# 0 "<built-in>"
+#define __FLT64_DECIMAL_DIG__ 17
+# 0 "<built-in>"
+#define __FLT64_MAX__ 1.79769313486231570814527423731704357e+308F64
+# 0 "<built-in>"
+#define __FLT64_NORM_MAX__ 1.79769313486231570814527423731704357e+308F64
+# 0 "<built-in>"
+#define __FLT64_MIN__ 2.22507385850720138309023271733240406e-308F64
+# 0 "<built-in>"
+#define __FLT64_EPSILON__ 2.22044604925031308084726333618164062e-16F64
+# 0 "<built-in>"
+#define __FLT64_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F64
+# 0 "<built-in>"
+#define __FLT64_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT64_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT64_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT64_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __STDCPP_FLOAT128_T__ 1
+# 0 "<built-in>"
+#define __FLT128_MANT_DIG__ 113
+# 0 "<built-in>"
+#define __FLT128_DIG__ 33
+# 0 "<built-in>"
+#define __FLT128_MIN_EXP__ (-16381)
+# 0 "<built-in>"
+#define __FLT128_MIN_10_EXP__ (-4931)
+# 0 "<built-in>"
+#define __FLT128_MAX_EXP__ 16384
+# 0 "<built-in>"
+#define __FLT128_MAX_10_EXP__ 4932
+# 0 "<built-in>"
+#define __FLT128_DECIMAL_DIG__ 36
+# 0 "<built-in>"
+#define __FLT128_MAX__ 1.18973149535723176508575932662800702e+4932F128
+# 0 "<built-in>"
+#define __FLT128_NORM_MAX__ 1.18973149535723176508575932662800702e+4932F128
+# 0 "<built-in>"
+#define __FLT128_MIN__ 3.36210314311209350626267781732175260e-4932F128
+# 0 "<built-in>"
+#define __FLT128_EPSILON__ 1.92592994438723585305597794258492732e-34F128
+# 0 "<built-in>"
+#define __FLT128_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966F128
+# 0 "<built-in>"
+#define __FLT128_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT128_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT128_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT128_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __FLT32X_MANT_DIG__ 53
+# 0 "<built-in>"
+#define __FLT32X_DIG__ 15
+# 0 "<built-in>"
+#define __FLT32X_MIN_EXP__ (-1021)
+# 0 "<built-in>"
+#define __FLT32X_MIN_10_EXP__ (-307)
+# 0 "<built-in>"
+#define __FLT32X_MAX_EXP__ 1024
+# 0 "<built-in>"
+#define __FLT32X_MAX_10_EXP__ 308
+# 0 "<built-in>"
+#define __FLT32X_DECIMAL_DIG__ 17
+# 0 "<built-in>"
+#define __FLT32X_MAX__ 1.79769313486231570814527423731704357e+308F32x
+# 0 "<built-in>"
+#define __FLT32X_NORM_MAX__ 1.79769313486231570814527423731704357e+308F32x
+# 0 "<built-in>"
+#define __FLT32X_MIN__ 2.22507385850720138309023271733240406e-308F32x
+# 0 "<built-in>"
+#define __FLT32X_EPSILON__ 2.22044604925031308084726333618164062e-16F32x
+# 0 "<built-in>"
+#define __FLT32X_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F32x
+# 0 "<built-in>"
+#define __FLT32X_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT32X_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT32X_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT32X_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __FLT64X_MANT_DIG__ 113
+# 0 "<built-in>"
+#define __FLT64X_DIG__ 33
+# 0 "<built-in>"
+#define __FLT64X_MIN_EXP__ (-16381)
+# 0 "<built-in>"
+#define __FLT64X_MIN_10_EXP__ (-4931)
+# 0 "<built-in>"
+#define __FLT64X_MAX_EXP__ 16384
+# 0 "<built-in>"
+#define __FLT64X_MAX_10_EXP__ 4932
+# 0 "<built-in>"
+#define __FLT64X_DECIMAL_DIG__ 36
+# 0 "<built-in>"
+#define __FLT64X_MAX__ 1.18973149535723176508575932662800702e+4932F64x
+# 0 "<built-in>"
+#define __FLT64X_NORM_MAX__ 1.18973149535723176508575932662800702e+4932F64x
+# 0 "<built-in>"
+#define __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x
+# 0 "<built-in>"
+#define __FLT64X_EPSILON__ 1.92592994438723585305597794258492732e-34F64x
+# 0 "<built-in>"
+#define __FLT64X_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966F64x
+# 0 "<built-in>"
+#define __FLT64X_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __FLT64X_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __FLT64X_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __FLT64X_IS_IEC_60559__ 1
+# 0 "<built-in>"
+#define __STDCPP_BFLOAT16_T__ 1
+# 0 "<built-in>"
+#define __BFLT16_MANT_DIG__ 8
+# 0 "<built-in>"
+#define __BFLT16_DIG__ 2
+# 0 "<built-in>"
+#define __BFLT16_MIN_EXP__ (-125)
+# 0 "<built-in>"
+#define __BFLT16_MIN_10_EXP__ (-37)
+# 0 "<built-in>"
+#define __BFLT16_MAX_EXP__ 128
+# 0 "<built-in>"
+#define __BFLT16_MAX_10_EXP__ 38
+# 0 "<built-in>"
+#define __BFLT16_DECIMAL_DIG__ 4
+# 0 "<built-in>"
+#define __BFLT16_MAX__ 3.38953138925153547590470800371487867e+38BF16
+# 0 "<built-in>"
+#define __BFLT16_NORM_MAX__ 3.38953138925153547590470800371487867e+38BF16
+# 0 "<built-in>"
+#define __BFLT16_MIN__ 1.17549435082228750796873653722224568e-38BF16
+# 0 "<built-in>"
+#define __BFLT16_EPSILON__ 7.81250000000000000000000000000000000e-3BF16
+# 0 "<built-in>"
+#define __BFLT16_DENORM_MIN__ 9.18354961579912115600575419704879436e-41BF16
+# 0 "<built-in>"
+#define __BFLT16_HAS_DENORM__ 1
+# 0 "<built-in>"
+#define __BFLT16_HAS_INFINITY__ 1
+# 0 "<built-in>"
+#define __BFLT16_HAS_QUIET_NAN__ 1
+# 0 "<built-in>"
+#define __BFLT16_IS_IEC_60559__ 0
+# 0 "<built-in>"
+#define __REGISTER_PREFIX__ 
+# 0 "<built-in>"
+#define __USER_LABEL_PREFIX__ 
+# 0 "<built-in>"
+#define __GNUC_STDC_INLINE__ 1
+# 0 "<built-in>"
+#define __STRICT_ANSI__ 1
+# 0 "<built-in>"
+#define __CHAR_UNSIGNED__ 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_BOOL_LOCK_FREE 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_CHAR_LOCK_FREE 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_CHAR8_T_LOCK_FREE 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_SHORT_LOCK_FREE 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_INT_LOCK_FREE 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_LONG_LOCK_FREE 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_LLONG_LOCK_FREE 1
+# 0 "<built-in>"
+#define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
+# 0 "<built-in>"
+#define __GCC_DESTRUCTIVE_SIZE 32
+# 0 "<built-in>"
+#define __GCC_CONSTRUCTIVE_SIZE 32
+# 0 "<built-in>"
+#define __GCC_ATOMIC_POINTER_LOCK_FREE 1
+# 0 "<built-in>"
+#define __GCC_HAVE_DWARF2_CFI_ASM 1
+# 0 "<built-in>"
+#define __PRAGMA_REDEFINE_EXTNAME 1
+# 0 "<built-in>"
+#define __SIZEOF_WCHAR_T__ 4
+# 0 "<built-in>"
+#define __SIZEOF_WINT_T__ 4
+# 0 "<built-in>"
+#define __SIZEOF_PTRDIFF_T__ 4
+# 0 "<built-in>"
+#define __riscv 1
+# 0 "<built-in>"
+#define __riscv_compressed 1
+# 0 "<built-in>"
+#define __riscv_mul 1
+# 0 "<built-in>"
+#define __riscv_div 1
+# 0 "<built-in>"
+#define __riscv_muldiv 1
+# 0 "<built-in>"
+#define __riscv_xlen 32
+# 0 "<built-in>"
+#define __riscv_flen 32
+# 0 "<built-in>"
+#define __riscv_fdiv 1
+# 0 "<built-in>"
+#define __riscv_fsqrt 1
+# 0 "<built-in>"
+#define __riscv_float_abi_single 1
+# 0 "<built-in>"
+#define __riscv_cmodel_medlow 1
+# 0 "<built-in>"
+#define __riscv_misaligned_slow 1
+# 0 "<built-in>"
+#define __riscv_arch_test 1
+# 0 "<built-in>"
+#define __riscv_i 2001000
+# 0 "<built-in>"
+#define __riscv_m 2000000
+# 0 "<built-in>"
+#define __riscv_f 2002000
+# 0 "<built-in>"
+#define __riscv_c 2000000
+# 0 "<built-in>"
+#define __riscv_zicsr 2000000
+# 0 "<built-in>"
+#define __riscv_zmmul 1000000
+# 0 "<built-in>"
+#define __riscv_zca 1000000
+# 0 "<built-in>"
+#define __riscv_zcf 1000000
+# 0 "<built-in>"
+#define __ELF__ 1
+# 0 "<command-line>"
+#define CONF_USER_ENABLE_PSRAM 1
+# 0 "<command-line>"
+#define ETL_NO_STL 1
+# 0 "<command-line>"
+#define BL_SDK_VER "release_bl_iot_sdk_1.6.11-1-g66bb28da-dirty"
+# 0 "<command-line>"
+#define BL_SDK_PHY_VER "a0_final-44-geb7fadd"
+# 0 "<command-line>"
+#define BL_SDK_RF_VER "f76e39a"
+# 0 "<command-line>"
+#define BL_CHIP_NAME "BL602"
+# 0 "<command-line>"
+#define BL_SDK_VER "release_bl_iot_sdk_1.6.11-1-g66bb28da-dirty"
+# 0 "<command-line>"
+#define BL_SDK_PHY_VER "a0_final-44-geb7fadd"
+# 0 "<command-line>"
+#define BL_SDK_RF_VER "f76e39a"
+# 0 "<command-line>"
+#define ARCH_RISCV 1
+# 0 "<command-line>"
+#define CONFIG_PSM_EASYFLASH_SIZE 16384
+# 0 "<command-line>"
+#define configUSE_TICKLESS_IDLE 0
+# 0 "<command-line>"
+#define FEATURE_WIFI_DISABLE 1
+# 0 "<command-line>"
+#define CFG_COMPONENT_BLOG_ENABLE 0
+# 0 "<command-line>"
+#define __FILENAME__ "network.cpp"
+# 0 "<command-line>"
+#define __FILENAME_WO_SUFFIX__ "networkpp"
+# 0 "<command-line>"
+#define __FILENAME_WO_SUFFIX_DEQUOTED__ networkpp
+# 0 "<command-line>"
+#define __COMPONENT_NAME__ "suas_app_freertos_watchdog"
+# 0 "<command-line>"
+#define __COMPONENT_NAME_DEQUOTED__ suas_app_freertos_watchdog
+# 0 "<command-line>"
+#define __COMPONENT_FILE_NAME__ "suas_app_freertos_watchdognetworkpp"
+# 0 "<command-line>"
+#define __COMPONENT_FILE_NAMED__ suas_app_freertos_watchdog.networkpp
+# 0 "<command-line>"
+#define __COMPONENT_FILE_NAME_DEQUOTED__ suas_app_freertos_watchdognetworkpp
+# 0 "<command-line>"
+#define BL_SDK_VER "release_bl_iot_sdk_1.6.11-1-g66bb28da-dirty"
+# 0 "<command-line>"
+#define BL_SDK_PHY_VER "a0_final-44-geb7fadd"
+# 0 "<command-line>"
+#define BL_SDK_RF_VER "f76e39a"
+# 0 "<command-line>"
+#define BL_CHIP_NAME "BL602"
+# 0 "<command-line>"
+#define BL_SDK_VER "release_bl_iot_sdk_1.6.11-1-g66bb28da-dirty"
+# 0 "<command-line>"
+#define BL_SDK_PHY_VER "a0_final-44-geb7fadd"
+# 0 "<command-line>"
+#define BL_SDK_RF_VER "f76e39a"
+# 0 "<command-line>"
+#define ARCH_RISCV 1
+# 0 "<command-line>"
+#define CONFIG_PSM_EASYFLASH_SIZE 16384
+# 0 "<command-line>"
+#define configUSE_TICKLESS_IDLE 0
+# 0 "<command-line>"
+#define FEATURE_WIFI_DISABLE 1
+# 0 "<command-line>"
+#define CFG_COMPONENT_BLOG_ENABLE 0
+# 1 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/network.cpp"
+# 1 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/network.h" 1
+       
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 1 3 4
+# 39 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#define _STDDEF_H 
+#define _STDDEF_H_ 
+
+#define _ANSI_STDDEF_H 
+# 147 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#define _PTRDIFF_T 
+#define _T_PTRDIFF_ 
+#define _T_PTRDIFF 
+#define __PTRDIFF_T 
+#define _PTRDIFF_T_ 
+#define _BSD_PTRDIFF_T_ 
+#define ___int_ptrdiff_t_h 
+#define _GCC_PTRDIFF_T 
+#define _PTRDIFF_T_DECLARED 
+#define __DEFINED_ptrdiff_t 
+
+
+
+
+# 160 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+typedef int ptrdiff_t;
+# 173 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_ptrdiff_t
+# 200 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#define __size_t__ 
+#define __SIZE_T__ 
+#define _SIZE_T 
+#define _SYS_SIZE_T_H 
+#define _T_SIZE_ 
+#define _T_SIZE 
+#define __SIZE_T 
+#define _SIZE_T_ 
+#define _BSD_SIZE_T_ 
+#define _SIZE_T_DEFINED_ 
+#define _SIZE_T_DEFINED 
+#define _BSD_SIZE_T_DEFINED_ 
+#define _SIZE_T_DECLARED 
+#define __DEFINED_size_t 
+#define ___int_size_t_h 
+#define _GCC_SIZE_T 
+#define _SIZET_ 
+
+
+
+
+
+
+#define __size_t 
+
+
+
+
+
+typedef unsigned int size_t;
+# 252 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_size_t
+# 282 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#define __wchar_t__ 
+#define __WCHAR_T__ 
+#define _WCHAR_T 
+#define _T_WCHAR_ 
+#define _T_WCHAR 
+#define __WCHAR_T 
+#define _WCHAR_T_ 
+#define _BSD_WCHAR_T_ 
+#define _WCHAR_T_DEFINED_ 
+#define _WCHAR_T_DEFINED 
+#define _WCHAR_T_H 
+#define ___int_wchar_t_h 
+#define __INT_WCHAR_T_H 
+#define _GCC_WCHAR_T 
+#define _WCHAR_T_DECLARED 
+#define __DEFINED_wchar_t 
+# 310 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef _BSD_WCHAR_T_
+# 364 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_wchar_t
+# 414 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef NULL
+
+#define NULL __null
+# 425 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_NULL
+
+
+
+
+#undef offsetof
+#define offsetof(TYPE,MEMBER) __builtin_offsetof (TYPE, MEMBER)
+
+
+
+
+#define _GCC_MAX_ALIGN_T 
+
+
+
+typedef struct {
+  long long __max_align_ll __attribute__((__aligned__(__alignof__(long long))));
+  long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
+# 451 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+} max_align_t;
+
+
+
+
+
+#define _GXX_NULLPTR_T 
+  typedef decltype(nullptr) nullptr_t;
+# 3 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/network.h" 2
+
+
+
+# 5 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/network.h"
+int ws_connect(const char* url);
+
+
+int ws_send(const char* data, size_t len);
+
+
+void ws_close();
+# 2 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/network.cpp" 2
+# 1 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/safe_print.h" 1
+
+#define SAFE_PRINT_H 
+
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stdarg.h" 1 3 4
+# 31 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stdarg.h" 3 4
+#define _STDARG_H 
+#define _ANSI_STDARG_H_ 
+
+#undef __need___va_list
+
+
+
+
+#define __GNUC_VA_LIST 
+
+# 40 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stdarg.h" 3 4
+typedef __builtin_va_list __gnuc_va_list;
+# 50 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stdarg.h" 3 4
+#define va_start(v,l) __builtin_va_start(v,l)
+
+#define va_end(v) __builtin_va_end(v)
+#define va_arg(v,l) __builtin_va_arg(v,l)
+
+
+#define va_copy(d,s) __builtin_va_copy(d,s)
+
+#define __va_copy(d,s) __builtin_va_copy(d,s)
+# 103 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stdarg.h" 3 4
+typedef __gnuc_va_list va_list;
+
+
+
+
+
+#define _VA_LIST_ 
+
+
+#define _VA_LIST 
+
+
+#define _VA_LIST_DEFINED 
+
+
+#define _VA_LIST_T_H 
+
+
+#define __va_list__ 
+# 5 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/safe_print.h" 2
+
+
+
+# 7 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/safe_print.h"
+extern "C" {
+
+
+
+void safe_print_init(void);
+
+
+void safe_printf(const char *fmt, ...);
+
+
+}
+# 3 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/network.cpp" 2
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/string.h" 1 3
+
+
+
+
+
+
+
+#define _STRING_H_ 
+
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/_ansi.h" 1 3
+
+
+
+
+
+
+
+#define _ANSIDECL_H_ 
+
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/newlib.h" 1 3
+
+
+
+
+
+
+#define __NEWLIB_H__ 1
+
+
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/_newlib_version.h" 1 3
+
+
+
+#define _NEWLIB_VERSION_H__ 1
+
+#define _NEWLIB_VERSION "4.4.0"
+#define __NEWLIB__ 4
+#define __NEWLIB_MINOR__ 4
+#define __NEWLIB_PATCHLEVEL__ 0
+# 11 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/newlib.h" 2 3
+# 33 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/newlib.h" 3
+#define _FSEEK_OPTIMIZATION 1
+
+
+#define _FVWRITE_IN_STREAMIO 1
+
+
+#define _HAVE_CC_INHIBIT_LOOP_TO_LIBCALL 1
+
+
+
+#define _HAVE_INITFINI_ARRAY 1
+
+
+#define _HAVE_LONG_DOUBLE 1
+# 364 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/newlib.h" 3
+#define _MB_LEN_MAX 1
+# 375 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/newlib.h" 3
+#define _REENT_CHECK_VERIFY 1
+
+
+
+
+
+#define _UNBUF_STREAM_OPT 1
+
+
+
+#define _WANT_IO_C99_FORMATS 1
+
+
+
+#define _WANT_IO_LONG_DOUBLE 1
+
+
+
+#define _WANT_IO_LONG_LONG 1
+# 410 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/newlib.h" 3
+#define _WANT_REGISTER_FINI 1
+
+
+#define _WANT_USE_GDTOA 1
+
+
+
+
+
+#define _WIDE_ORIENT 1
+# 11 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/_ansi.h" 2 3
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/config.h" 1 3
+
+#define __SYS_CONFIG_H__ 
+
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/ieeefp.h" 1 3
+# 219 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/ieeefp.h" 3
+#define __IEEE_LITTLE_ENDIAN 
+
+
+#define _SUPPORTS_ERREXCEPT 
+
+
+
+
+#define __OBSOLETE_MATH_DEFAULT 1
+# 522 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/ieeefp.h" 3
+#define __OBSOLETE_MATH __OBSOLETE_MATH_DEFAULT
+# 5 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/config.h" 2 3
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/features.h" 1 3
+# 22 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/features.h" 3
+#define _SYS_FEATURES_H 
+
+
+
+# 25 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/features.h" 3
+extern "C" {
+
+
+
+
+
+
+
+#define __GNUC_PREREQ(maj,min) ((__GNUC__ << 16) + __GNUC_MINOR__ >= ((maj) << 16) + (min))
+
+
+
+
+
+
+#define __GNUC_PREREQ__(ma,mi) __GNUC_PREREQ(ma, mi)
+# 259 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/features.h" 3
+#define __ATFILE_VISIBLE 0
+
+
+
+
+
+#define __BSD_VISIBLE 0
+
+
+
+
+
+#define __GNU_VISIBLE 0
+
+
+
+
+#define __ISO_C_VISIBLE 2020
+# 290 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/features.h" 3
+#define __LARGEFILE_VISIBLE 0
+
+
+
+
+
+#define __MISC_VISIBLE 0
+# 312 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/features.h" 3
+#define __POSIX_VISIBLE 0
+
+
+
+
+
+#define __SVID_VISIBLE 0
+# 332 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/features.h" 3
+#define __XSI_VISIBLE 0
+# 344 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/features.h" 3
+#define __SSP_FORTIFY_LEVEL 0
+# 549 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/features.h" 3
+}
+# 6 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/config.h" 2 3
+# 83 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/config.h" 3
+#define _READ_WRITE_RETURN_TYPE _ssize_t
+# 224 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/config.h" 3
+#define _POINTER_INT long
+
+
+
+
+
+#undef __RAND_MAX
+
+
+
+#define __RAND_MAX 0x7fffffff
+# 248 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/config.h" 3
+#define __EXPORT 
+
+
+
+#define __IMPORT 
+# 265 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/config.h" 3
+#define _READ_WRITE_BUFSIZE_TYPE int
+# 290 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/config.h" 3
+#define _USE_GDTOA 
+# 12 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/_ansi.h" 2 3
+# 21 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/_ansi.h" 3
+#define _BEGIN_STD_C extern "C" {
+#define _END_STD_C }
+
+
+#define _NOTHROW __attribute__ ((__nothrow__))
+# 37 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/_ansi.h" 3
+#define _LONG_DOUBLE long double
+
+
+
+
+
+#define _ATTRIBUTE(attrs) __attribute__ (attrs)
+# 69 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/_ansi.h" 3
+#define _ELIDABLE_INLINE static __inline__
+
+
+
+#define _NOINLINE __attribute__ ((__noinline__))
+#define _NOINLINE_STATIC _NOINLINE static
+# 11 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/string.h" 2 3
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 1 3
+# 9 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+extern "C" {
+
+#define _SYS_REENT_H_ 
+
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/_ansi.h" 1 3
+# 14 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 2 3
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 1 3 4
+# 15 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 2 3
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 1 3
+# 43 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define _SYS_CDEFS_H_ 
+
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/_default_types.h" 1 3
+
+
+
+
+
+#define _MACHINE__DEFAULT_TYPES_H 
+# 15 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/_default_types.h" 3
+#define __EXP(x) __ ##x ##__
+# 26 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/_default_types.h" 3
+#define __have_longlong64 1
+
+
+
+
+
+
+#define __have_long32 1
+
+
+
+extern "C" {
+
+
+
+typedef signed char __int8_t;
+
+typedef unsigned char __uint8_t;
+
+
+
+#define ___int8_t_defined 1
+
+
+
+
+
+
+
+typedef short int __int16_t;
+
+typedef short unsigned int __uint16_t;
+
+
+
+#define ___int16_t_defined 1
+# 77 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/_default_types.h" 3
+typedef long int __int32_t;
+
+typedef long unsigned int __uint32_t;
+
+
+
+#define ___int32_t_defined 1
+# 103 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/_default_types.h" 3
+typedef long long int __int64_t;
+
+typedef long long unsigned int __uint64_t;
+
+
+
+#define ___int64_t_defined 1
+# 134 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/_default_types.h" 3
+typedef signed char __int_least8_t;
+
+typedef unsigned char __uint_least8_t;
+
+
+
+#define ___int_least8_t_defined 1
+# 160 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/_default_types.h" 3
+typedef short int __int_least16_t;
+
+typedef short unsigned int __uint_least16_t;
+
+
+
+#define ___int_least16_t_defined 1
+# 182 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/_default_types.h" 3
+typedef long int __int_least32_t;
+
+typedef long unsigned int __uint_least32_t;
+
+
+
+#define ___int_least32_t_defined 1
+# 200 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/_default_types.h" 3
+typedef long long int __int_least64_t;
+
+typedef long long unsigned int __uint_least64_t;
+
+
+
+#define ___int_least64_t_defined 1
+
+
+
+
+
+
+
+typedef long long int __intmax_t;
+
+
+
+
+
+
+
+typedef long long unsigned int __uintmax_t;
+
+
+
+
+
+
+
+typedef int __intptr_t;
+
+typedef unsigned int __uintptr_t;
+# 244 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/_default_types.h" 3
+#undef __EXP
+
+
+}
+# 46 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 2 3
+
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 1 3 4
+# 48 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 2 3
+
+#define __PMT(args) args
+#define __DOTS , ...
+#define __THROW 
+
+
+#define __ASMNAME(cname) __XSTRING (__USER_LABEL_PREFIX__) cname
+
+
+#define __ptr_t void *
+#define __long_double_t long double
+
+#define __attribute_malloc__ 
+#define __attribute_pure__ 
+#define __attribute_format_strfmon__(a,b) 
+#define __flexarr [0]
+
+
+#define __bounded 
+#define __unbounded 
+#define __ptrvalue 
+# 91 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __BEGIN_DECLS extern "C" {
+#define __END_DECLS }
+# 107 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __GNUCLIKE_ASM 3
+#define __GNUCLIKE_MATH_BUILTIN_CONSTANTS 
+
+
+
+#define __GNUCLIKE___TYPEOF 1
+#define __GNUCLIKE___SECTION 1
+
+#define __GNUCLIKE_CTOR_SECTION_HANDLING 1
+
+#define __GNUCLIKE_BUILTIN_CONSTANT_P 1
+
+
+#define __GNUCLIKE_BUILTIN_VARARGS 1
+#define __GNUCLIKE_BUILTIN_STDARG 1
+#define __GNUCLIKE_BUILTIN_VAALIST 1
+
+
+#define __GNUC_VA_LIST_COMPATIBILITY 1
+
+
+
+
+#define __compiler_membar() __asm __volatile(" " : : : "memory")
+
+#define __GNUCLIKE_BUILTIN_NEXT_ARG 1
+#define __GNUCLIKE_MATH_BUILTIN_RELOPS 
+
+#define __GNUCLIKE_BUILTIN_MEMCPY 1
+
+
+#define __CC_SUPPORTS_INLINE 1
+#define __CC_SUPPORTS___INLINE 1
+#define __CC_SUPPORTS___INLINE__ 1
+
+#define __CC_SUPPORTS___FUNC__ 1
+#define __CC_SUPPORTS_WARNING 1
+
+#define __CC_SUPPORTS_VARADIC_XXX 1
+
+#define __CC_SUPPORTS_DYNAMIC_ARRAY_INIT 1
+# 164 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __P(protos) protos
+#define __CONCAT1(x,y) x ## y
+#define __CONCAT(x,y) __CONCAT1(x,y)
+#define __STRING(x) #x
+#define __XSTRING(x) __STRING(x)
+
+#define __const const
+#define __signed signed
+#define __volatile volatile
+
+#define __inline inline
+# 217 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __weak_symbol __attribute__((__weak__))
+# 230 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __dead2 __attribute__((__noreturn__))
+#define __pure2 __attribute__((__const__))
+#define __unused __attribute__((__unused__))
+#define __used __attribute__((__used__))
+#define __packed __attribute__((__packed__))
+#define __aligned(x) __attribute__((__aligned__(x)))
+#define __section(x) __attribute__((__section__(x)))
+
+
+#define __alloc_size(x) __attribute__((__alloc_size__(x)))
+#define __alloc_size2(n,x) __attribute__((__alloc_size__(n, x)))
+
+
+
+
+
+#define __alloc_align(x) __attribute__((__alloc_align__(x)))
+# 264 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define _Alignas(x) alignas(x)
+
+
+
+
+
+
+
+#define _Alignof(x) alignof(x)
+# 287 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define _Noreturn [[noreturn]]
+
+
+
+
+
+
+
+#define _Static_assert(x,y) static_assert(x, y)
+# 316 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define _Thread_local thread_local
+# 358 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __min_size(x) (x)
+
+
+
+#define __malloc_like __attribute__((__malloc__))
+#define __pure __attribute__((__pure__))
+
+
+
+
+
+
+#define __always_inline __inline__ __attribute__((__always_inline__))
+
+
+
+
+
+#define __noinline __attribute__ ((__noinline__))
+
+
+
+
+
+#define __nonnull(x) __attribute__((__nonnull__ x))
+#define __nonnull_all __attribute__((__nonnull__))
+
+
+
+
+
+
+#define __fastcall __attribute__((__fastcall__))
+#define __result_use_check __attribute__((__warn_unused_result__))
+
+
+
+
+
+
+#define __returns_twice __attribute__((__returns_twice__))
+
+
+
+
+
+#define __unreachable() __builtin_unreachable()
+# 432 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __restrict_arr 
+# 468 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __predict_true(exp) __builtin_expect((exp), 1)
+#define __predict_false(exp) __builtin_expect((exp), 0)
+
+
+
+
+
+
+#define __null_sentinel __attribute__((__sentinel__))
+#define __exported __attribute__((__visibility__("default")))
+
+
+#define __hidden __attribute__((__visibility__("hidden")))
+# 490 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __offsetof(type,field) offsetof(type, field)
+#define __rangeof(type,start,end) (__offsetof(type, end) - __offsetof(type, start))
+# 501 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __containerof(x,s,m) ({ const volatile __typeof(((s *)0)->m) *__x = (x); __DEQUALIFY(s *, (const volatile char *)__x - __offsetof(s, m));})
+# 523 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __printflike(fmtarg,firstvararg) __attribute__((__format__ (__printf__, fmtarg, firstvararg)))
+
+#define __scanflike(fmtarg,firstvararg) __attribute__((__format__ (__scanf__, fmtarg, firstvararg)))
+
+#define __format_arg(fmtarg) __attribute__((__format_arg__ (fmtarg)))
+#define __strfmonlike(fmtarg,firstvararg) __attribute__((__format__ (__strfmon__, fmtarg, firstvararg)))
+
+#define __strftimelike(fmtarg,firstvararg) __attribute__((__format__ (__strftime__, fmtarg, firstvararg)))
+# 540 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __printf0like(fmtarg,firstvararg) 
+
+
+
+#define __strong_reference(sym,aliassym) extern __typeof (sym) aliassym __attribute__ ((__alias__ (#sym)))
+
+
+
+#define __weak_reference(sym,alias) __asm__(".weak " #alias); __asm__(".equ " #alias ", " #sym)
+
+
+#define __warn_references(sym,msg) __asm__(".section .gnu.warning." #sym); __asm__(".asciz \"" msg "\""); __asm__(".previous")
+
+
+
+#define __sym_compat(sym,impl,verid) __asm__(".symver " #impl ", " #sym "@" #verid)
+
+#define __sym_default(sym,impl,verid) __asm__(".symver " #impl ", " #sym "@@" #verid)
+# 592 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __FBSDID(s) struct __hack
+
+
+
+#define __RCSID(s) struct __hack
+
+
+
+#define __RCSID_SOURCE(s) struct __hack
+
+
+
+#define __SCCSID(s) struct __hack
+
+
+
+#define __COPYRIGHT(s) struct __hack
+
+
+
+#define __DECONST(type,var) ((type)(__uintptr_t)(const void *)(var))
+
+
+
+#define __DEVOLATILE(type,var) ((type)(__uintptr_t)(volatile void *)(var))
+
+
+
+#define __DEQUALIFY(type,var) ((type)(__uintptr_t)(const volatile void *)(var))
+
+
+
+
+
+
+#define _Nonnull 
+#define _Nullable 
+#define _Null_unspecified 
+#define __NULLABILITY_PRAGMA_PUSH 
+#define __NULLABILITY_PRAGMA_POP 
+# 652 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __arg_type_tag(arg_kind,arg_idx,type_tag_idx) 
+#define __datatype_type_tag(kind,type) 
+# 671 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __lock_annotate(x) 
+
+
+
+
+
+#define __lockable __lock_annotate(lockable)
+
+
+#define __locks_exclusive(...) __lock_annotate(exclusive_lock_function(__VA_ARGS__))
+
+#define __locks_shared(...) __lock_annotate(shared_lock_function(__VA_ARGS__))
+
+
+
+#define __trylocks_exclusive(...) __lock_annotate(exclusive_trylock_function(__VA_ARGS__))
+
+#define __trylocks_shared(...) __lock_annotate(shared_trylock_function(__VA_ARGS__))
+
+
+
+#define __unlocks(...) __lock_annotate(unlock_function(__VA_ARGS__))
+
+
+#define __asserts_exclusive(...) __lock_annotate(assert_exclusive_lock(__VA_ARGS__))
+
+#define __asserts_shared(...) __lock_annotate(assert_shared_lock(__VA_ARGS__))
+
+
+
+#define __requires_exclusive(...) __lock_annotate(exclusive_locks_required(__VA_ARGS__))
+
+#define __requires_shared(...) __lock_annotate(shared_locks_required(__VA_ARGS__))
+
+#define __requires_unlocked(...) __lock_annotate(locks_excluded(__VA_ARGS__))
+
+
+
+#define __no_lock_analysis __lock_annotate(no_thread_safety_analysis)
+# 726 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/cdefs.h" 3
+#define __nosanitizeaddress 
+#define __nosanitizememory 
+#define __nosanitizethread 
+
+
+
+#define __guarded_by(x) __lock_annotate(guarded_by(x))
+#define __pt_guarded_by(x) __lock_annotate(pt_guarded_by(x))
+
+
+
+
+#define __builtin_is_aligned(x,align) (((__uintptr_t)x & ((align) - 1)) == 0)
+
+
+
+#define __builtin_align_up(x,align) ((__typeof__(x))(((__uintptr_t)(x)+((align)-1))&(~((align)-1))))
+
+
+
+#define __builtin_align_down(x,align) ((__typeof__(x))((x)&(~((align)-1))))
+
+
+
+#define __align_up(x,y) __builtin_align_up(x, y)
+#define __align_down(x,y) __builtin_align_down(x, y)
+#define __is_aligned(x,y) __builtin_is_aligned(x, y)
+# 16 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 2 3
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/_types.h" 1 3
+# 20 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/_types.h" 3
+#define _SYS__TYPES_H 
+
+#define __need_size_t 
+#define __need_wint_t 
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 1 3 4
+# 173 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_ptrdiff_t
+# 252 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_size_t
+# 364 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_wchar_t
+
+
+
+
+#define _WINT_T 
+
+
+
+
+typedef unsigned int wint_t;
+
+#undef __need_wint_t
+# 414 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef NULL
+
+#define NULL __null
+# 425 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_NULL
+
+
+
+
+#undef offsetof
+#define offsetof(TYPE,MEMBER) __builtin_offsetof (TYPE, MEMBER)
+# 25 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/_types.h" 2 3
+
+
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/machine/_types.h" 1 3
+
+
+
+
+
+#define _MACHINE__TYPES_H 
+# 28 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/_types.h" 2 3
+
+
+typedef long __blkcnt_t;
+
+
+
+typedef long __blksize_t;
+
+
+
+typedef __uint64_t __fsblkcnt_t;
+
+
+
+typedef __uint32_t __fsfilcnt_t;
+
+
+
+typedef long _off_t;
+
+
+
+
+
+typedef int __pid_t;
+
+
+
+typedef short __dev_t;
+
+
+
+typedef unsigned short __uid_t;
+
+
+typedef unsigned short __gid_t;
+
+
+
+typedef __uint32_t __id_t;
+
+
+
+
+
+
+
+typedef unsigned short __ino_t;
+# 90 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/_types.h" 3
+typedef __uint32_t __mode_t;
+
+
+
+
+
+__extension__ typedef long long _off64_t;
+
+
+
+
+
+typedef _off_t __off_t;
+
+
+typedef _off64_t __loff_t;
+
+
+typedef long __key_t;
+
+
+
+
+
+
+
+typedef long _fpos_t;
+# 127 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/_types.h" 3
+#undef __size_t
+
+
+
+typedef unsigned int __size_t;
+# 146 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/_types.h" 3
+#define unsigned signed
+typedef signed int _ssize_t;
+#undef unsigned
+# 158 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/_types.h" 3
+typedef _ssize_t __ssize_t;
+
+
+
+typedef struct
+{
+  int __count;
+  union
+  {
+    wint_t __wch;
+    unsigned char __wchb[4];
+  } __value;
+} _mbstate_t;
+
+
+
+
+typedef void *_iconv_t;
+
+
+
+#define _CLOCK_T_ unsigned long
+
+
+typedef unsigned long __clock_t;
+
+
+
+
+#define _TIME_T_ __int_least64_t
+
+typedef __int_least64_t __time_t;
+
+
+#define _CLOCKID_T_ unsigned long
+
+
+typedef unsigned long __clockid_t;
+
+
+typedef long __daddr_t;
+
+
+#define _TIMER_T_ unsigned long
+typedef unsigned long __timer_t;
+
+
+typedef __uint8_t __sa_family_t;
+
+
+
+typedef __uint32_t __socklen_t;
+
+
+typedef int __nl_item;
+typedef unsigned short __nlink_t;
+typedef long __suseconds_t;
+typedef unsigned long __useconds_t;
+
+
+
+
+
+
+
+typedef __builtin_va_list __va_list;
+# 17 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 2 3
+
+#define _NULL 0
+
+
+
+#define __Long long
+typedef unsigned long __ULong;
+# 35 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/lock.h" 1 3
+
+#define __SYS_LOCK_H__ 
+# 11 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/lock.h" 3
+typedef int _LOCK_T;
+typedef int _LOCK_RECURSIVE_T;
+
+#define __LOCK_INIT(class,lock) static int lock = 0;
+#define __LOCK_INIT_RECURSIVE(class,lock) static int lock = 0;
+#define __lock_init(lock) ((void) 0)
+#define __lock_init_recursive(lock) ((void) 0)
+#define __lock_close(lock) ((void) 0)
+#define __lock_close_recursive(lock) ((void) 0)
+#define __lock_acquire(lock) ((void) 0)
+#define __lock_acquire_recursive(lock) ((void) 0)
+#define __lock_try_acquire(lock) ((void) 0)
+#define __lock_try_acquire_recursive(lock) ((void) 0)
+#define __lock_release(lock) ((void) 0)
+#define __lock_release_recursive(lock) ((void) 0)
+# 36 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 2 3
+typedef _LOCK_RECURSIVE_T _flock_t;
+
+
+
+
+
+
+
+struct _reent;
+
+struct __locale_t;
+
+
+
+
+
+
+struct _Bigint
+{
+  struct _Bigint *_next;
+  int _k, _maxwds, _sign, _wds;
+  __ULong _x[1];
+};
+
+
+struct __tm
+{
+  int __tm_sec;
+  int __tm_min;
+  int __tm_hour;
+  int __tm_mday;
+  int __tm_mon;
+  int __tm_year;
+  int __tm_wday;
+  int __tm_yday;
+  int __tm_isdst;
+};
+
+
+
+
+
+#define _ATEXIT_SIZE 32
+
+struct _on_exit_args {
+ void * _fnargs[32];
+ void * _dso_handle[32];
+
+ __ULong _fntypes;
+
+
+ __ULong _is_cxa;
+};
+# 99 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+struct _atexit {
+ struct _atexit *_next;
+ int _ind;
+
+ void (*_fns[32])(void);
+        struct _on_exit_args _on_exit_args;
+};
+#define _ATEXIT_INIT {_NULL, 0, {_NULL}, {{_NULL}, {_NULL}, 0, 0}}
+# 116 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+struct __sbuf {
+ unsigned char *_base;
+ int _size;
+};
+# 146 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+#define _REENT_SMALL_CHECK_INIT(ptr) 
+
+
+
+
+
+
+struct __sFILE {
+  unsigned char *_p;
+  int _r;
+  int _w;
+  short _flags;
+  short _file;
+  struct __sbuf _bf;
+  int _lbfsize;
+
+
+
+
+
+
+  void * _cookie;
+
+  _ssize_t (*_read) (struct _reent *, void *,
+        char *, int);
+  _ssize_t (*_write) (struct _reent *, void *,
+         const char *,
+         int);
+  _fpos_t (*_seek) (struct _reent *, void *, _fpos_t, int);
+  int (*_close) (struct _reent *, void *);
+
+
+  struct __sbuf _ub;
+  unsigned char *_up;
+  int _ur;
+
+
+  unsigned char _ubuf[3];
+  unsigned char _nbuf[1];
+
+
+  struct __sbuf _lb;
+
+
+  int _blksize;
+  _off_t _offset;
+
+
+  struct _reent *_data;
+
+
+
+  _flock_t _lock;
+
+  _mbstate_t _mbstate;
+  int _flags2;
+};
+# 270 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+typedef struct __sFILE __FILE;
+
+
+
+extern __FILE __sf[3];
+
+struct _glue
+{
+  struct _glue *_next;
+  int _niobs;
+  __FILE *_iobs;
+};
+
+extern struct _glue __sglue;
+# 299 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+#define _RAND48_SEED_0 (0x330e)
+#define _RAND48_SEED_1 (0xabcd)
+#define _RAND48_SEED_2 (0x1234)
+#define _RAND48_MULT_0 (0xe66d)
+#define _RAND48_MULT_1 (0xdeec)
+#define _RAND48_MULT_2 (0x0005)
+#define _RAND48_ADD (0x000b)
+struct _rand48 {
+  unsigned short _seed[3];
+  unsigned short _mult[3];
+  unsigned short _add;
+
+
+
+
+};
+
+
+#define _REENT_EMERGENCY_SIZE 25
+#define _REENT_ASCTIME_SIZE 26
+#define _REENT_SIGNAL_SIZE 24
+# 330 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+#define _REENT_INIT_RESERVED_0 
+#define _REENT_INIT_RESERVED_1 
+#define _REENT_INIT_RESERVED_2 
+#define _REENT_INIT_RESERVED_6_7 
+#define _REENT_INIT_RESERVED_8 
+# 568 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+struct _reent
+{
+  int _errno;
+
+
+
+
+  __FILE *_stdin, *_stdout, *_stderr;
+
+  int _inc;
+  char _emergency[25];
+
+
+
+
+  struct __locale_t *_locale;
+
+
+
+
+
+  void (*__cleanup) (struct _reent *);
+
+
+  struct _Bigint *_result;
+  int _result_k;
+  struct _Bigint *_p5s;
+  struct _Bigint **_freelist;
+
+
+  int _cvtlen;
+  char *_cvtbuf;
+
+  union
+    {
+      struct
+        {
+
+
+
+          char * _strtok_last;
+          char _asctime_buf[26];
+          struct __tm _localtime_buf;
+          int _gamma_signgam;
+          __extension__ unsigned long long _rand_next;
+          struct _rand48 _r48;
+          _mbstate_t _mblen_state;
+          _mbstate_t _mbtowc_state;
+          _mbstate_t _wctomb_state;
+          char _l64a_buf[8];
+          char _signal_buf[24];
+          int _getdate_err;
+          _mbstate_t _mbrlen_state;
+          _mbstate_t _mbrtowc_state;
+          _mbstate_t _mbsrtowcs_state;
+          _mbstate_t _wcrtomb_state;
+          _mbstate_t _wcsrtombs_state;
+   int _h_errno;
+# 634 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+        } _reent;
+
+
+
+
+
+
+
+    } _new;
+
+
+
+
+
+
+
+  void (**_sig_func)(int);
+};
+
+#define _REENT_INIT(var) { 0, &__sf[0], &__sf[1], &__sf[2], 0, "", _REENT_INIT_RESERVED_1 _NULL, _REENT_INIT_RESERVED_0 _NULL, _NULL, 0, _NULL, _NULL, 0, _NULL, { { _REENT_INIT_RESERVED_2 _NULL, "", {0, 0, 0, 0, 0, 0, 0, 0, 0}, 0, 1, { {_RAND48_SEED_0, _RAND48_SEED_1, _RAND48_SEED_2}, {_RAND48_MULT_0, _RAND48_MULT_1, _RAND48_MULT_2}, _RAND48_ADD }, {0, {0}}, {0, {0}}, {0, {0}}, "", "", 0, {0, {0}}, {0, {0}}, {0, {0}}, {0, {0}}, {0, {0}} } }, _REENT_INIT_RESERVED_6_7 _NULL }
+# 700 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+#define _REENT_INIT_PTR_ZEROED(var) { (var)->_stdin = &__sf[0]; (var)->_stdout = &__sf[1]; (var)->_stderr = &__sf[2]; (var)->_new._reent._rand_next = 1; (var)->_new._reent._r48._seed[0] = _RAND48_SEED_0; (var)->_new._reent._r48._seed[1] = _RAND48_SEED_1; (var)->_new._reent._r48._seed[2] = _RAND48_SEED_2; (var)->_new._reent._r48._mult[0] = _RAND48_MULT_0; (var)->_new._reent._r48._mult[1] = _RAND48_MULT_1; (var)->_new._reent._r48._mult[2] = _RAND48_MULT_2; (var)->_new._reent._r48._add = _RAND48_ADD; }
+# 714 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+#define _REENT_CHECK_RAND48(ptr) 
+#define _REENT_CHECK_MP(ptr) 
+#define _REENT_CHECK_TM(ptr) 
+#define _REENT_CHECK_ASCTIME_BUF(ptr) 
+#define _REENT_CHECK_EMERGENCY(ptr) 
+#define _REENT_CHECK_MISC(ptr) 
+#define _REENT_CHECK_SIGNAL_BUF(ptr) 
+
+#define _REENT_SIGNGAM(ptr) ((ptr)->_new._reent._gamma_signgam)
+#define _REENT_RAND_NEXT(ptr) ((ptr)->_new._reent._rand_next)
+#define _REENT_RAND48_SEED(ptr) ((ptr)->_new._reent._r48._seed)
+#define _REENT_RAND48_MULT(ptr) ((ptr)->_new._reent._r48._mult)
+#define _REENT_RAND48_ADD(ptr) ((ptr)->_new._reent._r48._add)
+#define _REENT_MP_RESULT(ptr) ((ptr)->_result)
+#define _REENT_MP_RESULT_K(ptr) ((ptr)->_result_k)
+#define _REENT_MP_P5S(ptr) ((ptr)->_p5s)
+#define _REENT_MP_FREELIST(ptr) ((ptr)->_freelist)
+#define _REENT_ASCTIME_BUF(ptr) ((ptr)->_new._reent._asctime_buf)
+#define _REENT_TM(ptr) (&(ptr)->_new._reent._localtime_buf)
+#define _REENT_STRTOK_LAST(ptr) ((ptr)->_new._reent._strtok_last)
+#define _REENT_MBLEN_STATE(ptr) ((ptr)->_new._reent._mblen_state)
+#define _REENT_MBTOWC_STATE(ptr) ((ptr)->_new._reent._mbtowc_state)
+#define _REENT_WCTOMB_STATE(ptr) ((ptr)->_new._reent._wctomb_state)
+#define _REENT_MBRLEN_STATE(ptr) ((ptr)->_new._reent._mbrlen_state)
+#define _REENT_MBRTOWC_STATE(ptr) ((ptr)->_new._reent._mbrtowc_state)
+#define _REENT_MBSRTOWCS_STATE(ptr) ((ptr)->_new._reent._mbsrtowcs_state)
+#define _REENT_WCRTOMB_STATE(ptr) ((ptr)->_new._reent._wcrtomb_state)
+#define _REENT_WCSRTOMBS_STATE(ptr) ((ptr)->_new._reent._wcsrtombs_state)
+# 750 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+#define _REENT_L64A_BUF(ptr) ((ptr)->_new._reent._l64a_buf)
+#define _REENT_SIGNAL_BUF(ptr) ((ptr)->_new._reent._signal_buf)
+#define _REENT_GETDATE_ERR_P(ptr) (&((ptr)->_new._reent._getdate_err))
+
+
+
+#define _REENT_CLEANUP(_ptr) ((_ptr)->__cleanup)
+#define _REENT_CVTBUF(_ptr) ((_ptr)->_cvtbuf)
+#define _REENT_CVTLEN(_ptr) ((_ptr)->_cvtlen)
+#define _REENT_EMERGENCY(_ptr) ((_ptr)->_emergency)
+#define _REENT_ERRNO(_ptr) ((_ptr)->_errno)
+#define _REENT_INC(_ptr) ((_ptr)->_inc)
+#define _REENT_LOCALE(_ptr) ((_ptr)->_locale)
+#define _REENT_SIG_FUNC(_ptr) ((_ptr)->_sig_func)
+#define _REENT_STDIN(_ptr) ((_ptr)->_stdin)
+#define _REENT_STDOUT(_ptr) ((_ptr)->_stdout)
+#define _REENT_STDERR(_ptr) ((_ptr)->_stderr)
+
+#define _REENT_INIT_PTR(var) { memset((var), 0, sizeof(*(var))); _REENT_INIT_PTR_ZEROED(var); }
+# 779 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+#define __ATTRIBUTE_IMPURE_PTR__ 
+
+
+extern struct _reent *_impure_ptr ;
+
+
+#define __ATTRIBUTE_IMPURE_DATA__ 
+
+
+extern struct _reent _impure_data ;
+# 798 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+#define _REENT _impure_ptr
+
+
+#define _REENT_IS_NULL(_ptr) ((_ptr) == NULL)
+
+#define _GLOBAL_REENT (&_impure_data)
+# 898 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/reent.h" 3
+#define _Kmax (sizeof (size_t) << 3)
+
+extern struct _atexit *__atexit;
+extern struct _atexit __atexit0;
+
+extern void (*__stdio_exit_handler) (void);
+
+void _reclaim_reent (struct _reent *);
+
+extern int _fwalk_sglue (struct _reent *, int (*)(struct _reent *, __FILE *),
+    struct _glue *);
+
+
+}
+# 12 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/string.h" 2 3
+
+
+
+#define __need_size_t 
+#define __need_NULL 
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 1 3 4
+# 173 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_ptrdiff_t
+# 252 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_size_t
+# 364 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_wchar_t
+# 414 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef NULL
+
+#define NULL __null
+# 425 "/home/shivani/bl602_iot_sdk/toolchain/compiler/lib/gcc/riscv32-unknown-elf/15.1.0/include/stddef.h" 3 4
+#undef __need_NULL
+
+
+
+
+#undef offsetof
+#define offsetof(TYPE,MEMBER) __builtin_offsetof (TYPE, MEMBER)
+# 18 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/string.h" 2 3
+# 27 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/string.h" 3
+extern "C" {
+
+void * memchr (const void *, int, size_t);
+int memcmp (const void *, const void *, size_t);
+void * memcpy (void *__restrict, const void *__restrict, size_t);
+void * memmove (void *, const void *, size_t);
+void * memset (void *, int, size_t);
+char *strcat (char *__restrict, const char *__restrict);
+char *strchr (const char *, int);
+int strcmp (const char *, const char *);
+int strcoll (const char *, const char *);
+char *strcpy (char *__restrict, const char *__restrict);
+size_t strcspn (const char *, const char *);
+char *strerror (int);
+size_t strlen (const char *);
+char *strncat (char *__restrict, const char *__restrict, size_t);
+int strncmp (const char *, const char *, size_t);
+char *strncpy (char *__restrict, const char *__restrict, size_t);
+char *strpbrk (const char *, const char *);
+char *strrchr (const char *, int);
+size_t strspn (const char *, const char *);
+char *strstr (const char *, const char *);
+
+char *strtok (char *__restrict, const char *__restrict);
+
+size_t strxfrm (char *__restrict, const char *__restrict, size_t);
+# 86 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/string.h" 3
+char *_strdup_r (struct _reent *, const char *);
+
+
+
+char *_strndup_r (struct _reent *, const char *, size_t);
+# 112 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/string.h" 3
+char * _strerror_r (struct _reent *, int, int, int *);
+# 175 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/string.h" 3
+# 1 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/string.h" 1 3
+# 13 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/sys/string.h" 3
+#define _SYS_STRING_H 
+
+static inline unsigned long __libc_detect_null(unsigned long w)
+{
+  unsigned long mask = 0x7f7f7f7f;
+  if (sizeof (long) == 8)
+    mask = ((mask << 16) << 16) | mask;
+  return ~(((w & mask) + mask) | w | mask);
+}
+# 176 "/home/shivani/bl602_iot_sdk/toolchain/compiler/riscv32-unknown-elf/include/string.h" 2 3
+
+}
+# 4 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/network.cpp" 2
+
+
+
+# 6 "/home/shivani/bl602_iot_sdk/customer_app/suas_app_freertos_watchdog/suas_app_freertos_watchdog/network.cpp"
+static int ws_connected = 0;
+
+int ws_connect(const char* url) {
+    safe_printf("[ws_connect] connecting to: %s\n", url);
+    ws_connected = 1;
+    return ws_connected;
+}
+
+int ws_send(const char* data, size_t len) {
+    if (!ws_connected) return 0;
+
+
+    safe_printf("[ws_send] sending: %.*s\n", (int)len, data);
+    return (int)len;
+}
+
+void ws_close() {
+    ws_connected = 0;
+    safe_printf("[ws_close] WebSocket closed\n");
+}

@@ -1,0 +1,45 @@
+import serial
+from flask import Flask, Response
+
+# Update this to match your COM port / USB port
+SERIAL_PORT = "/dev/ttyUSB0"  # Linux
+# SERIAL_PORT = "COM3"  # Windows
+BAUD_RATE = 115200
+
+ser = serial.Serial(SERIAL_PORT, BAUD_RATE)
+app = Flask(__name__)
+
+@app.route("/events")
+def events():
+    def generate():
+        while True:
+            line = ser.readline().decode(errors="ignore").strip()
+            if line:
+                yield f"data: {line}\n\n"  # SSE format
+    return Response(generate(), mimetype="text/event-stream")
+
+@app.route("/")
+def index():
+    # Simple webpage
+    return """
+    <!DOCTYPE html>
+    <html>
+    <head><title>MCU Events</title></head>
+    <body>
+        <h1>FreeRTOS Events</h1>
+        <div id="events"></div>
+        <script>
+            const evtSource = new EventSource("/events");
+            const container = document.getElementById("events");
+            evtSource.onmessage = (e) => {
+                const data = JSON.parse(e.data);
+                container.innerHTML += `<p>${JSON.stringify(data)}</p>`;
+            };
+        </script>
+    </body>
+    </html>
+    """
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
+
