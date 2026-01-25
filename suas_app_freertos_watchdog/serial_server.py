@@ -74,8 +74,7 @@ def index():
                     div.className = "task " + status;
                     div.innerHTML = `<strong>${data.task}</strong><br>
                                      Status: ${status}<br>
-                                     Last n: ${data.n ?? "-"}<br>
-                                     Restarts: ${data.count ? tasks[data.task].restarts : 0}`;
+                                     Count: ${data.n ?? "-"}`;
                 }
             };
         </script>
