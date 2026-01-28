@@ -99,5 +99,3 @@ Key options can be adjusted in:
 ## License
 
 This project is provided for educational and experimental use
-
----
